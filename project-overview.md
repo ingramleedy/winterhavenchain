@@ -51,7 +51,14 @@ The SWFWMD staff gauge on Lake Cannon (Station 24852, located at 28.04125, -81.7
 
 ### Weather Data
 
-Current conditions and daily forecast data are sourced from a WeatherFlow Tempest weather station (Station 26857) installed at the same dock location as the IoT water level sensor, providing air temperature, wind, UV index, and precipitation probability.
+A WeatherFlow Tempest weather station (Station 26857) is installed at the same dock location as the IoT water level sensor. The Tempest is an all-in-one personal weather station that measures wind speed/direction, air temperature, humidity, barometric pressure, UV index, solar radiation, and precipitation.
+
+The system uses the WeatherFlow REST API to pull two types of data for the infographics:
+
+- **Current observations** — Real-time air temperature, wind speed and direction, UV index, and sky conditions displayed alongside our water temperature reading
+- **Daily forecast** — Today's high/low temperatures, conditions summary, and precipitation probability
+
+This gives viewers a complete picture — water conditions from our sensor, plus weather context from the same location — all in one infographic.
 
 ---
 
