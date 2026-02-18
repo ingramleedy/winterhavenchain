@@ -42,9 +42,12 @@ All bridge heights and canal bottom depths were physically measured and recorded
 - **Bridge Clearance** = Bridge Height (NAVD88) − Current Water Level (NAVD88)
 - **Canal Water Depth** = Current Water Level (NAVD88) − Canal Bottom Elevation (NAVD88)
 
-### Historical Context
+### Historical Context & Base Datum
 
-Long-term historical data comes from SWFWMD staff gauge records (Station 24852), enabling reporting of all-time high/low water levels, long-term median, and trend analysis (7-day and 30-day changes).
+The SWFWMD staff gauge on Lake Cannon (Station 24852, located at 28.04125, -81.74747) is a manually-read gauge that SWFWMD visits approximately monthly to record the lake's surface elevation in NAVD88. This station's records were critical to the project in two ways:
+
+1. **Base datum for sensor calibration** — The staff gauge's NAVD88 readings were used to establish the known bottom elevation of our IoT sensor (127.5647 ft NAVD88), which is the reference point for converting raw voltage readings into surface elevations.
+2. **Historical data** — Years of staff gauge records predate our IoT sensor installation, providing the long-term dataset used to calculate all-time high/low water levels, long-term median, and 7-day/30-day trend analysis.
 
 ### Weather Data
 
