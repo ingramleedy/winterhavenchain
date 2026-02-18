@@ -27,7 +27,7 @@ A submersible pressure-based water level sensor is installed at my dock on Lake 
 | Communication | RAK2560 hub with LTE-M cellular (Soracom) |
 | Power | 12V DC + solar battery backup (5200 mAh) |
 | Reporting Interval | Approximately every hour |
-| Location | Lake Cannon dock (28.04125, -81.74747) |
+| Location | Lake Cannon dock (28.03667, -81.74719) |
 
 **Calibration:** The sensor outputs a voltage proportional to water depth. A two-point calibration (dry = 4.13V / 0 ft, mounted = 6.71V / 2.83 ft) converts voltage to depth. The sensor's known bottom elevation (127.5647 ft NAVD88) translates depth readings into surface elevation above sea level.
 
